@@ -1,6 +1,6 @@
 package com.zemoso.christmaslight;
 
-public class BrightGrid implements LightLitInterface {
+public class BrightGrid implements LightLitInterface,LightLitShowInterface {
 	
 	private final int size = 1000;
     private final int[][] lightGridMatrix =new int[size][size];
